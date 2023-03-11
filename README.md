@@ -64,7 +64,7 @@ Página de apresentação da série The Mandalorian da Disney+ .
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](jacquenunes.github.io/the-mandalorian/).
+Você pode visualizar o layout do projeto através [DESSE LINK](https://jacquenunes.github.io/the-mandalorian/).
 
 ## :memo: Licença
 
