@@ -1,42 +1,122 @@
 @media (max-width: 1280px) {
-    body{
+    body {
         padding: 0 4rem;
     }
 }
 
-@media (max-width: 768px){
-    .informacoes{
+@media (max-width: 769px) {
+    .informacoes {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .informacoes .descricao{
+    .informacoes .logo {
+        max-width: 40.0rem;
+        margin-left: .6rem;
+    }
+
+    .informacoes .descricao {
         width: 60%;
         text-align: center;
     }
+
+    .botoes-carrossel .botao{
+        margin-top: 250px;
+         width: 1rem;
+        height: 1rem;
+    }
+    .menu-lateral {
+        position: static;
+        min-height: auto;
+        width: 100%;       
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+    }
 }
 
-@media (max-width: 425px){
-    .informacoes .logo{
+@media (max-width: 425px) {
+    .informacoes .logo {
         max-width: 30.0rem;
+        margin-left: .6rem;
     }
-    .informacoes .descricao{
+
+    .informacoes .descricao {
+
         width: 100%;
     }
-    .menu-lateral{
+
+    .menu-lateral {
         position: static;
         min-height: auto;
         width: 100%;
         margin-top: 5.0rem;
     }
-    .menu-lateral ul{
+
+    .menu-lateral ul {
         flex-direction: row;
     }
-    .conteudo{
+
+    .conteudo {
         min-height: 70vh;
         gap: 5.0rem;
     }
-    body{
+
+    body {
         padding: 4.0rem;
     }
+}
+
+@media (max-width: 516px) {
+    .informacoes .logo {
+        max-width: 22.0rem;
+    }
+
+    .informacoes .descricao {
+        width: 100%;
+    }
+    .botoes-carrossel .botao{
+        margin-top: 650px;
+         width: 1rem;
+        height: 1rem;
+    }
+
+    .menu-lateral {
+        position: static;
+        min-height: auto;
+        width: 100%;
+        margin-top: 5.0rem;
+    }
+
+    .menu-lateral ul {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 30rem;
+    }
+
+    .conteudo {
+        min-height: 60vh;
+        gap: 5.0rem;
+    }
+
+    body {
+        padding: 4.0rem;
+    }
+}
+
+@media (max-width: 375px){
+
+    .botoes-carrossel .botao{
+        margin-top: 55rem;
+         width: .90rem;
+        height: .90rem;  
+        border-radius: 50%;     
+    }
+
+    body {
+        padding: 5.0rem;
+    }
+
 }
